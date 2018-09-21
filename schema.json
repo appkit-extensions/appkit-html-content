@@ -34,7 +34,7 @@
         "groups": [ "General", "Advanced" ]
     },
     "data": {
-        "pages": {
+        "htmlpages": {
             "child": "page",
             "name": "Page",
             "title": "title",
