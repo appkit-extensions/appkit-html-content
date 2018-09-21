@@ -21,9 +21,9 @@
         "schema": "schema.json",
         "content": {
           "edit": {
-            "events": {
+            "htmlpages": {
               "name": "Pages",
-              "data": "pages"
+              "data": "htmlpages"
             }
           }
         },
