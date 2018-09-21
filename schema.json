@@ -71,6 +71,13 @@
                     "required": false
                 },
                 {
+                    "key": "asmenu",
+                    "type": "bool",
+                    "format": "",
+                    "caption": "Show As Menu",
+                    "required": false
+                },
+                {
                     "key": "order",
                     "type": "number",
                     "format": "",
