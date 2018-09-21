@@ -38,6 +38,7 @@
             "child": "page",
             "name": "Page",
             "title": "title",
+            "description": "content",
             "key": "id",
             "thumb": "image",
             "sort": "order",
