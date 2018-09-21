@@ -65,8 +65,8 @@
                 {
                     "key": "content",
                     "type": "content",
-                    "format": "rtf",
-                    "caption": "Body",
+                    "format": "html",
+                    "caption": "Html",
                     "required": false
                 },
                 {
@@ -74,7 +74,7 @@
                     "type": "number",
                     "format": "",
                     "caption": "Order",
-                    "required": true
+                    "required": false
                 }
             ]
         }
