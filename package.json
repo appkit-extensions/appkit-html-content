@@ -1,7 +1,7 @@
 {
-  "name": "appkit-html-content",
+  "name": "appkit-html-ext",
   "version": "1.0.0",
-  "description": "appkit-html-content extension for Appkit",
+  "description": "appkit-html-ext extension for Appkit",
   "scripts": {
   },
   "keywords": [],
@@ -16,7 +16,7 @@
   "appkit": {
     "modules": [
       {
-        "id": "appkit-html-content",
+        "id": "appkit-html",
         "name": "HTML Pages",
         "schema": "schema.json",
         "content": {
