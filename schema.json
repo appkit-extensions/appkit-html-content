@@ -1,0 +1,82 @@
+{
+    "options": {
+        "fields": {
+            "title": {
+                "label": "Title",
+                "description": "Title for this module.",
+                "default": "News",
+                "group": "General",
+                "heading": "",
+                "type": "String"
+            },
+            "enable-live-updates": {
+                "label": "Enable Live Content Updates",
+                "description": "Content gets automatically published without manually publishing",
+                "group": "Advanced",
+                "heading": "",
+                "type": "YesNo"
+            },
+            "enable-ui-override": {
+                "label": "Enable UI Override",
+                "description": "Override the default UI for this module",
+                "group": "Advanced",
+                "heading": "",
+                "type": "YesNo"
+            },
+            "enable-xml-editing": {
+                "label": "Enable XML Editing",
+                "description": "Show XML to allow advanced editing",
+                "group": "Advanced",
+                "heading": "",
+                "type": "YesNo"
+            }
+        },
+        "groups": [ "General", "Advanced" ]
+    },
+    "data": {
+        "pages": {
+            "child": "page",
+            "name": "Page",
+            "title": "title",
+            "key": "id",
+            "thumb": "image",
+            "sort": "order",
+            "fields": [
+                {
+                    "key": "id",
+                    "type": "id"
+                },
+                {
+                    "key": "title",
+                    "type": "string",
+                    "format": "single-line",
+                    "caption": "Title",
+                    "minLength": 2,
+                    "maxLength": 200,
+                    "required": true
+                },
+                {
+                    "key": "image",
+                    "type": "fileref",
+                    "format": "jpg, png, jpeg",
+                    "caption": "Image",
+                    "required": false
+                },
+                {
+                    "key": "content",
+                    "type": "content",
+                    "format": "rtf",
+                    "caption": "Body",
+                    "required": false
+                },
+                {
+                    "key": "order",
+                    "type": "number",
+                    "format": "",
+                    "caption": "Order",
+                    "required": true
+                }
+            ]
+        }
+    }
+}
